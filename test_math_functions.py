@@ -15,3 +15,12 @@ def test_calc_multiply():
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+def test_calc_addthree():
+    output = add_three(2,3,4)
+    assert output = 9
+def test_calc_multiplythree():
+    output = multiply_three(2,3,4)
+    assert output = 24
+def test_calc_dividethree():
+    output = divide_three(20,5,2)
+    assert output = 2
